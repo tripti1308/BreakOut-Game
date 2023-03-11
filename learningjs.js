@@ -154,7 +154,7 @@ changedir()
 if (pos[1]<=0)
 {
   clearInterval(timerid)
-  scoredisplay.innerHtml = 'You such a looser'
+  scoredisplay.innerHTML = 'You such a looser'
   document.removeEventListener('keydown',moveUser)
 }
 //}
